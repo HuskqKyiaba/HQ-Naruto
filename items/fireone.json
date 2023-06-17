@@ -1,0 +1,33 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hn:fire one",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "HN_fireone"
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "activate"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:cooldown": {
+              "category": "fireone",
+              "duration": 10
+            }
+        },
+        "events": {
+            "activate": {
+                "run_command": {
+                    "command": [
+                        "function fireone"
+                    ]
+                }
+            }
+        }
+    }
+}
