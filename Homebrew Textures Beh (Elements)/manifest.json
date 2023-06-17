@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Husky"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.6"
+			],
+			"dash": [
+				"0.8.9"
+			]
+		}
+	},
+	"header": {
+		"name": "Husky's Items (Elements)",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "e8130131-67b5-43f0-ac80-e05eae60a997",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "9c8b867b-413a-448b-986c-2f36ea97fdb3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a3f6fd3e-314c-416e-947f-88ce48535b70",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

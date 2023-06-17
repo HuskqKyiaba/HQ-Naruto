@@ -1,0 +1,33 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hn:lightningfive",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "HN_lightningfive"
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "activate"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:cooldown": {
+              "category": "lightningfive",
+              "duration": 10
+            }
+        },
+        "events": {
+            "activate": {
+                "run_command": {
+                    "command": [
+                        "function lightningfive"
+                    ]
+                }
+            }
+        }
+    }
+}
